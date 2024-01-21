@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="base.css">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;500;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <a href="https://favorit-consult.ru/" class="header__top-btn header__top-btn_primary">
+                Банкротство физ. лиц
+            </a>
+            <a href="#about" class="header__top-btn">
+                О нас
+            </a>
+            <a href="#team" class="header__top-btn">
+                Команда
+            </a>
+            <a href="#test" class="header__top-btn">
+                Стоимость услуг
+            </a>
+            <a href="#consult" class="header__top-btn">
+                Консультация
+            </a>
+            <a href="#contacts" class="header__top-btn">
+                Контакты
+            </a>
+        </div>
+        <div class="navbar flex items-center">
+            <div class="navbar__logo-wrapper">
+                <a href="/index.html" class="navbar__logo">
+                    <img src="./images/logo.svg" alt="Logo">
+                </a>
+            </div>
+            <!-- DESKTOP NAVBAR HERE -->
+            <div class="navbar__desktop dt-nav">
+                <p class="header__text">
+                    Поможем списать долги или вернем деньги
+                </p>
+                <!-- <button class="dt-nav__btn dt__btn_transparent">
+                    Банкротство физ. лиц
+                </button> -->
+                <a href="whatsapp://send?phone=+79096298319" target="_blank" class="navbar__icon" style="margin-left: 70px;">
+                    <img src="./images/whatsapp-icon.png" alt="WhatsApp">
+                </a>
+                <a href="viber://add?number=79264915667" target="_blank" class="navbar__icon">
+                    <img src="./images/viber.png" alt="Viber">
+                </a>
+                <a href="tg://resolve?domain=favorit_bankrotstvo" target="_blank" class="navbar__icon" style="margin-right: 50px;">
+                    <img src="./images/tg-icon.svg" alt="telegram">
+                </a>
+                <div class="dt-nav__call">
+                    <a href="tel:+78005059436" class="dt-nav__phone">8 (800) 505-94-36</a>
+                    <span class="dt-nav__text">Звонок бесплатный по всей России</span>
+                </div>
+                <button class="hero__btn open-modal-btn">Заказать звонок</button>
+            </div>
+            <a href="tel:+78005059436" class="header__phone-number">8 (800) 505-94-36</a>
+            <button class="navbar__toggler burger">
+                <img src="./images/burger.png" alt="Burger">
+            </button>
+            
+            
+
+        </div>
+        <ul class="header__bottom header-bottom">
+            <li class="header__bottom-item header__bottom-item_nested navbar__item_nested">
+                Кредиты и микрозаймы
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-spisat-dolgi-i-bit-svobodnim/" class="submenu__link">
+                            Как списать просроченный долг?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-zakonno-ne-platit-kredity-vozmozhno-li-eto/" class="submenu__link">
+                            Как законно не платить кредиты?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/restrukturizaciya-dolgov-grazhdanina/" class="submenu__link">
+                            Банкротство в форме реструктуризации
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/srok-iskovoj-davnosti-po-kreditu/" class="submenu__link">
+                            Срок исковой давности по долгам и кредиту
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link">
+                            Кредитные каникулы: как оформить и продлить
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link submenu__link_underlined">
+                            Все статьи
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="header__bottom-item header__bottom-item_nested  navbar__item_nested">
+                Долги
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-vylezti-iz-dolgovoy-yamy-kreditov/" class="submenu__link">
+                            Как вылезти из долговой ямы кредитов
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/nechem-platit-kredit-chto-delat/" class="submenu__link">
+                            Нечем платить кредит: что делать?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/mogut-li-posadit-v-tyurmu-za-nevyplatu-kredita/" class="submenu__link">
+                            Тюрьма за невыплату кредита
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/chto-budet-esli-ne-platit-kredit/" class="submenu__link">
+                            Неуплата кредита: уголовная ответственность
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link submenu__link_underlined">
+                            Все статьи
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="header__bottom-item header__bottom-item_nested  navbar__item_nested">
+                Приставы и коллекторы
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kto-takoj-sudebnyj-pristav-chto-vhodit-v-ego-prava-i-obyazannosti/" class="submenu__link">
+                            Кто такой судебный пристав
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-rabotayut-sudebnye-pristavy-po-ispolnitelnomu-proizvodstvu/" class="submenu__link">
+                            Как работают судебные приставы?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/sudebnye-pristavy-pri-vzyskanii-dolga-chego-boyatsya/" class="submenu__link">
+                            Судебные приставы: чего бояться?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kto-takie-kollektory-zakon-o-kollektorah-i-kak-s-nimi-obshhatsya/" class="submenu__link">
+                            Как общаться с коллекторами?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/arest-schetov/" class="submenu__link">
+                            Что делать при аресте счетов приставами?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/chto-delat-esli-pristavy-snyali-vse-dengi/" class="submenu__link">
+                            Что делать, если приставы сняли все деньги
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-vesti-sebya-s-kollektorami/" class="submenu__link">
+                            Как избавиться от звонков коллекторов?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/sudebnye-pristavy-i-bankrotstvo/" class="submenu__link">
+                            Исполнительное производство при банкротстве
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/ugrozy-kollektorov/" class="submenu__link">
+                            Угрожают коллекторы: как себя защитить?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/chto-mogut-zabrat-pristavy/" class="submenu__link">
+                            Что могут забрать судебные приставы при взыскании долгов?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link submenu__link_underlined">
+                            Все статьи
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="header__bottom-item header__bottom-item_nested  navbar__item_nested">
+                Другие статьи
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/subsidiarnaya-otvetstvennost-pri-bankrotstve/" class="submenu__link">
+                            Субсидиарная ответственность и банкротство
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/bankrotstvo-ip-s-dolgami-osobennosti-proczedura-zakon/" class="submenu__link">
+                            Процедура банкротства ИП с долгами по налогам и кредитам в 2023 году
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link submenu__link_underlined">
+                            Все статьи
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <nav class="navbar__nav" data-navbar>
+        <ul class="navbar__list">
+            <li class="navbar__item">
+                <a href="#about" class="navbar__link">
+                    О нас
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="#team" class="navbar__link">
+                    Команда
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="#test" class="navbar__link">
+                    Стоимость услуг
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="#consult" class="navbar__link">
+                    Консультация
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="#contacts" class="navbar__link">
+                    Контакты
+                </a>
+            </li>
+            <li class="navbar__item navbar__item_nested">
+                <a href="#contacts" class="navbar__link navbar__link_nested">
+                    Кредиты и микрозаймы
+                </a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-spisat-dolgi-i-bit-svobodnim/" class="submenu__link">
+                            Как списать просроченный долг?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-zakonno-ne-platit-kredity-vozmozhno-li-eto/" class="submenu__link">
+                            Как законно не платить кредиты?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/restrukturizaciya-dolgov-grazhdanina/" class="submenu__link">
+                            Банкротство в форме реструктуризации
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/srok-iskovoj-davnosti-po-kreditu/" class="submenu__link">
+                            Срок исковой давности по долгам и кредиту
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link">
+                            Кредитные каникулы: как оформить и продлить
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link submenu__link_underlined">
+                            Все статьи
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navbar__item navbar__item_nested">
+                <a href="#contacts" class="navbar__link navbar__link_nested">
+                    Долги
+                </a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-vylezti-iz-dolgovoy-yamy-kreditov/" class="submenu__link">
+                            Как вылезти из долговой ямы кредитов
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/nechem-platit-kredit-chto-delat/" class="submenu__link">
+                            Нечем платить кредит: что делать?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/mogut-li-posadit-v-tyurmu-za-nevyplatu-kredita/" class="submenu__link">
+                            Тюрьма за невыплату кредита
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/chto-budet-esli-ne-platit-kredit/" class="submenu__link">
+                            Неуплата кредита: уголовная ответственность
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link submenu__link_underlined">
+                            Все статьи
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navbar__item navbar__item_nested">
+                <a href="#contacts" class="navbar__link navbar__link_nested">
+                    Приставы и коллекторы
+                </a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kto-takoj-sudebnyj-pristav-chto-vhodit-v-ego-prava-i-obyazannosti/" class="submenu__link">
+                            Кто такой судебный пристав
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-rabotayut-sudebnye-pristavy-po-ispolnitelnomu-proizvodstvu/" class="submenu__link">
+                            Как работают судебные приставы?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/sudebnye-pristavy-pri-vzyskanii-dolga-chego-boyatsya/" class="submenu__link">
+                            Судебные приставы: чего бояться?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kto-takie-kollektory-zakon-o-kollektorah-i-kak-s-nimi-obshhatsya/" class="submenu__link">
+                            Как общаться с коллекторами?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/arest-schetov/" class="submenu__link">
+                            Что делать при аресте счетов приставами?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/chto-delat-esli-pristavy-snyali-vse-dengi/" class="submenu__link">
+                            Что делать, если приставы сняли все деньги
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kak-vesti-sebya-s-kollektorami/" class="submenu__link">
+                            Как избавиться от звонков коллекторов?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/sudebnye-pristavy-i-bankrotstvo/" class="submenu__link">
+                            Исполнительное производство при банкротстве
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/ugrozy-kollektorov/" class="submenu__link">
+                            Угрожают коллекторы: как себя защитить?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/chto-mogut-zabrat-pristavy/" class="submenu__link">
+                            Что могут забрать судебные приставы при взыскании долгов?
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link submenu__link_underlined">
+                            Все статьи
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navbar__item navbar__item_nested">
+                <a href="#contacts" class="navbar__link navbar__link_nested">
+                    Другие статьи
+                </a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/subsidiarnaya-otvetstvennost-pri-bankrotstve/" class="submenu__link">
+                            Субсидиарная ответственность и банкротство
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/bankrotstvo-ip-s-dolgami-osobennosti-proczedura-zakon/" class="submenu__link">
+                            Процедура банкротства ИП с долгами по налогам и кредитам в 2023 году
+                        </a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="https://favorit-consult.ru/article/kreditnye-kanikuly-konchilis-chto-delat-dalshe/" class="submenu__link submenu__link_underlined">
+                            Все статьи
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            
+        </ul>
+        
+    </nav>
+    <div class="navbar__bottom" data-navbar>
+            
+        <div class="navbar__item icons-wrapper">
+            <!-- <div class="navbar__block flex navbar__icons-wrapper"> -->
+                <a target="_blank" href="whatsapp://send?phone=+79096298319" class="navbar__icon">
+                    <img src="./images/whatsapp-icon.png" alt="WhatsApp">
+                </a>
+                <a target="_blank" href="viber://add?number=79264915667/" class="navbar__icon">
+                    <img src="./images/viber.png" alt="Viber">
+                </a>
+                <a target="_blank" href="tg://resolve?domain=favorit_bankrotstvo" class="navbar__icon">
+                    <img src="./images/tg-icon.svg" alt="Telegram">
+                </a>
+            <!-- </div> -->
+        </div>
+        
+            <a href="https://favorit-consult.ru/" class="navbar__button navbar__button">
+                Банкротство физ.лиц
+            </a>
+    </div>
+    <main class="main">
+        <div class="local-navbar">
+            <ul class="local-navbar__list">
+                <li class="local-navbar__item">
+                    <a href="https://favorit-consult.ru/" class="local-navbar__link">Главная</a>
+                </li>
+                <li class="local-navbar__item">
+                    <a href="https://favorit-consult.ru/articles/" class="local-navbar__link">Статьи</a>
+                </li>
+                <li class="local-navbar__item">
+                    <a href="#" class="local-navbar__link local-navbar__link_active">Что делать, если не отдают долг?</a>
+                </li>
+            </ul>
+        </div>
+        <section class="section first">
+            <h1 class="first__title">Что делать, если не отдают долг?</h1>
+            <div class="first__inner">
+                <div class="first__text-block">
+                    <p class="first__text">
+                        Бытует такое мнение — никогда не давайте в долг, если не готовы или навсегда расстаться с деньгами, или испортить отношения. 
+                    </p>
+                    <p class="first__text">
+                        Но в жизни возникают разные обстоятельства. Иногда может обратиться друг или родственник 
+                        с просьбой одолжить деньги, и ему сложно отказать. В таком случае хочется верить, что заемщик — честный человек и намерен вернуть деньги. 
+                    </p>
+                </div>
+                <div class="first__text-block">
+                    <p class="first__text">
+                        На практике встречаются ситуации, когда должник добровольно не возвращает займ в оговоренный срок.
+                    </p>
+                    <p class="first__text first__text_bold">
+                        Как тогда вернуть деньги без расписки? <br> 
+                        Рассказываем, что делать, если не отдают долг?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section assessment">
+            <h2 class="assessment__title">Оценка ситуации</h2>
+            <div class="assessment__inner">
+                <div class="assessment__block">
+                    <p class="assessment__text">
+                        В соответствии с Гражданским Кодексом (ГК) РФ при сумме долга — 
+                        <span class="bold">
+                            до 10 тыс. рублей
+                        </span>  — договор займа и расписку составлять не обязательно.
+                    </p>
+                    <p class="assessment__text">
+                        В случае, если сумма займа составляет
+                        <span class="bold">
+                        больше 10 тыс. рублей
+                        </span>
+                        , рекомендуется документально оформить факт передачи денег.
+                    </p>
+                </div>
+                <div class="assessment__block">
+                    <p class="assessment__text">
+                        Если при передаче денег, независимо от суммы, составлен договор займа и/или получена расписка, то факт возникновения долга при необходимости доказать будет легче. 
+                    </p>
+                </div>
+                <div class="assessment__block">
+                    <p class="assessment__text">
+                        Но случается, что передача денежных средств от кредитора заёмщику никак документально не подтверждается.
+                    </p>
+                </div>
+            </div>
+            <div class="user-card">
+                <div class="user-card__img-wrapper">
+                    <img src="./images/avatar-1.png" alt="Avatar" class="user-card__img">
+                </div>
+                <div class="user-card__info">
+                    <span class="user-card__name">
+                        Ижко Иван
+                    </span>
+                    <span class="user-card_italic">
+                        Управляющий партнер
+                    </span>
+                    <span class="user-card_italic">
+                        Опыт работы 10 лет
+                    </span>
+                </div>
+                <div class="user-card__text-wrapper">
+                    <p class="user-card__text">
+                        <span class="bold">Мнение юриста:</span> 
+                        Для дополнительного подтверждения можно снять видео 
+                        с голосовым сопровождением. Нужно будет произнести время и дату и дать общее описание последствиям. Например, откуда 
+                        и куда течет вода.
+                    </p>
+                </div>
+                <button class="user-card__btn primary-btn" data-open-modal>
+                    Задать вопрос юристу
+                </button>
+            </div>
+            <div class="assessment__subtext-block">
+                <p class="assessment__text">
+                    <span class="bold">Важно! </span>
+                    Денежные средства одалживают наличными, 
+                    передавая из рук в руки, либо переводом на банковскую карту. 
+                    Если вы одолжили деньги и столкнулись с тем, что заёмщик 
+                    отказывается возвращать долг или не имеет возможности вернуть 
+                    его в оговорённый срок, шансы получить свои средства есть.
+                </p>
+                
+            </div>
+        </section>
+        <section class="section punishment">
+            <h2 class="punishment__title">Меры по взысканию долга</h2>
+            <span class="punishment__subtitle">Рассказываем подробнее об алгоритме действий, которые могут помочь урегулировать ситуацию мирным путем.</span>
+            <div class="punishment__inner">
+                <div class="punishment__item">
+                    <div class="punishment__circle">1</div>
+                    <p class="punishment__text">
+                        Первое, что следует сделать: позвонить должнику с просьбой вернуть деньги и обговорить срок, когда будет осуществлен возврат долга. При этом можно записать разговор на диктофон.
+                    </p>
+                </div>
+                <div class="punishment__item">
+                    <div class="punishment__circle">2</div>
+                    <p class="punishment__text">
+                        Кроме того, нужно сохранить тексты сообщений, переписки в мессенджерах, социальных сетях с заемщиком на эту тему. Например, сообщения, в которых человек просил одолжить деньги. Эта информация может оказаться полезной, если заемщик впоследствии откажется признавать факт долга. Также нужно сохранить более поздние сообщения с просьбами вернуть деньги. 
+                    </p>
+                </div>
+                <div class="punishment__important">
+                    <p class="punishment__text">
+                        <span class="bold">Важно!</span> 
+                        Если Вы одолжили <span class="bold">более 10 тыс. рублей</span> без 
+                        заключения письменного  договора займа, 
+                        <a href="https://www.nablawiki.ru/index.php/%D0%9D%D0%9F%D0%90:%D0%93%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8:%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F_162" class="punishment__link">
+                        свидетельские показания в расчет приниматься не будут!
+                        </a> 
+                    </p>
+                </div>
+                <div class="punishment__item">
+                    <div class="punishment__circle">3</div>
+                    <p class="punishment__text">
+                        В случае перевода денежных средств на банковскую карту, стоит запросить в банке выписку по данной операции для подтверждения факта передачи и суммы долга.
+                    </p>
+                </div>
+                <div class="punishment__item">
+                    <div class="punishment__circle">4</div>
+                    <p class="punishment__text">
+                        Можно пригласить заемщика на личную встречу, в ходе которой обсудить способы, сроки возврата денежных средств, возможность рассрочки, выплату процентов. Если удастся договориться о новых условиях возврата, необходимо составить новую расписку.
+                    </p>
+                </div>
+                <div class="punishment__item">
+                    <div class="punishment__circle">5</div>
+                    <p class="punishment__text">
+                        Если переговоры и все принятые выше меры не привели к нужному результату, 
+                        тогда можно подготовить и направить в адрес должника претензию с требованием 
+                        о возврате долга и 
+                        <a href="https://base.garant.ru/10164072/8d892718771b9b72a8346e1e19030a37/" class="punishment__link">
+                            уплате процентов
+                        </a> (неустойки) 
+                        за нарушение условий договора. 
+                        Составленную претензию нужно отправить заказным 
+                        письмом по месту жительства должника. 
+                        В ней предупредить должника, что в случае игнорирования 
+                        Ваших требований последует 
+                        обращение в правоохранительные органы и суд.
+                    </p>
+                </div>
+            </div>            
+        </section>
+    </main>
+    <script src="header.js"></script>
+</body>
+</html>
